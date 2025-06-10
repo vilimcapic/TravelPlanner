@@ -16,7 +16,7 @@ Kako bi se pokrenula aplikacija, potrebno je slijediti iduće korake:
 1. Instalirati Docker Desktop
 2. Preuzeti kod s GitHub repozitorija
 3. Navigirati do preuzete mape kroz terminal
-4. Stvoriti docker image komandom (ime i verzija može po volji, ovdje je isto kao i u predavanjima): "docker build --tag todo:3.1" 
+4. Stvoriti docker image komandom (ime i verzija može po volji, ovdje je isto kao i u predavanjima): "docker build --tag todo:3.1 ." 
 5. Stvoriti docker container komandom: "docker run -p 8080:8080 todo:3.1"
 
 ![image](https://github.com/user-attachments/assets/9a0bfb35-d877-43d7-b5c2-d027b4bf2473)
